@@ -32,11 +32,11 @@ Por fim, a aplicação estará disponível em `http://localhost:3000/travel_plan
 
 ## Requisitos
 
-### 1. Criação de um novo plano de viagem: `requisito ok`
+### 1. Criação de um novo plano de viagem
 
 - **Endpoint:** POST /travel-plans
 
-- **Exemplo de uso:** POST /travel-plans
+- **Exemplo de uso:** POST /travel-plans ✅
   - **Corpo da requisição (Content-Type: application/json):**
     ```json
     {
@@ -59,7 +59,7 @@ Por fim, a aplicação estará disponível em `http://localhost:3000/travel_plan
   - optimize (boolean - falso por padrão): Quando verdadeiro, o array de travel_stops é ordenado de maneira a otimizar a viagem.
   - expand (boolean - falso por padrão): Quando verdadeiro, o campo de travel_stops é um array de entidades com informações detalhadas sobre cada parada.
 
-- **Exemplo de uso:** GET /travel-plans
+- **Exemplo de uso:** GET /travel-plans ✅
   - **Resposta de sucesso (Status: 200, Content-Type: application/json):**
     ```json
     [
@@ -127,7 +127,7 @@ Por fim, a aplicação estará disponível em `http://localhost:3000/travel_plan
   - optimize (boolean - falso por padrão): Quando verdadeiro, o array de travel_stops é ordenado de maneira a otimizar a viagem.
   - expand (boolean - falso por padrão): Quando verdadeiro, o campo de travel_stops é um array de entidades com informações detalhadas sobre cada parada.
 
-- **Exemplo de uso:** GET /travel-plans/1
+- **Exemplo de uso:** GET /travel-plans/1 ✅
   - **Resposta de sucesso (Status: 200, Content-Type: application/json):**
     ```json
     {
@@ -158,7 +158,7 @@ Por fim, a aplicação estará disponível em `http://localhost:3000/travel_plan
     }
     ```
 
-### 4. Atualização de um plano de viagem existente: `requisito ok`
+### 4. Atualização de um plano de viagem existente
 
 - **Endpoint:** PUT /travel-plans/{id}
 
@@ -166,7 +166,7 @@ Por fim, a aplicação estará disponível em `http://localhost:3000/travel_plan
 
   - {id}: O identificador único do plano de viagem.
 
-- **Exemplo de uso:** PUT /travel-plans/1
+- **Exemplo de uso:** PUT /travel-plans/1 ✅
 
   - **Corpo da requisição (Content-Type: application/json):**
 
@@ -184,7 +184,7 @@ Por fim, a aplicação estará disponível em `http://localhost:3000/travel_plan
     }
     ```
 
-### 5. Exclusão de um plano de viagem existente: `requisito ok`
+### 5. Exclusão de um plano de viagem existente
 
 - **Endpoint:** DELETE /travel-plans/{id}
 
@@ -192,7 +192,7 @@ Por fim, a aplicação estará disponível em `http://localhost:3000/travel_plan
 
   - {id}: O identificador único do plano de viagem.
 
-- **Exemplo de uso:** DELETE /travel-plans/1
+- **Exemplo de uso:** DELETE /travel-plans/1 ✅
   - **Resposta de sucesso (Status: 204): Resposta sem corpo**
 
 ## Parâmetros Modificadores
