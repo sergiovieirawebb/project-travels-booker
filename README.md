@@ -1,4 +1,4 @@
-# Desafio Travels Booker em construção... 🚧
+# Travels Booker em construção... 🚧
 
 Sérgio está construindo este projeto para desafiar a si mesmo, desenvolvendo uma **API REST** em uma linguagem de programação completamente nova para ele, e da qual tem pouca informação na internet, obrigando-o a pesquisar apenas utilizando as documentações das tecnologias utilizadas. 
 
