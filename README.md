@@ -32,7 +32,7 @@ Por fim, a aplicação estará disponível em `http://localhost:3000/travel_plan
 
 ## Requisitos
 
-### 1. Criação de um novo plano de viagem
+### 1. Criação de um novo plano de viagem: `requisito ok`
 
 - **Endpoint:** POST /travel-plans
 
@@ -158,7 +158,7 @@ Por fim, a aplicação estará disponível em `http://localhost:3000/travel_plan
     }
     ```
 
-### 4. Atualização de um plano de viagem existente
+### 4. Atualização de um plano de viagem existente: `requisito ok`
 
 - **Endpoint:** PUT /travel-plans/{id}
 
@@ -184,7 +184,7 @@ Por fim, a aplicação estará disponível em `http://localhost:3000/travel_plan
     }
     ```
 
-### 5. Exclusão de um plano de viagem existente
+### 5. Exclusão de um plano de viagem existente: `requisito ok`
 
 - **Endpoint:** DELETE /travel-plans/{id}
 
