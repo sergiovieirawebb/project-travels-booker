@@ -1,0 +1,28 @@
+name: travel_plans
+version: 0.1.0
+
+authors:
+  - Sérgio Vieira <sergiovieira.webb@gmail.com>
+
+targets:
+  travel_plans:
+    main: src/main.cr
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+
+  jennifer:
+    github: imdrasil/jennifer.cr
+    version: "~> 0.13.0"
+
+  sam:
+    github: imdrasil/sam.cr
+    version: "~> 0.4.2"
+
+  mysql:
+    github: crystal-lang/crystal-mysql
+
+crystal: 1.8.2
+
+license: MIT
