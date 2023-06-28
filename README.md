@@ -31,12 +31,13 @@ O objetivo de Sérgio é implementar a API de acordo com os requisitos e torná-
 Por fim, a aplicação estará disponível em `http://localhost:3000/travel_plans`
 
 ## Requisitos
+> ✅ Rotas que já desenvolveu... ❌ Rotas que ainda não desenvolveu...
 
 ### 1. Criação de um novo plano de viagem
 
 - **Endpoint:** POST /travel-plans
 
-- **Exemplo de uso:** POST /travel-plans ✅
+- **Exemplo de uso:** POST /travel-plans  ✅
   - **Corpo da requisição (Content-Type: application/json):**
     ```json
     {
@@ -74,7 +75,7 @@ Por fim, a aplicação estará disponível em `http://localhost:3000/travel_plan
     ]
     ```
 
-- **Exemplo de uso:** GET /travel-plans?optimize=false&expand=true
+- **Exemplo de uso:** GET /travel-plans?optimize=false&expand=true ❌
   - **Resposta de sucesso (Status: 200, Content-Type: application/json):**
     ```json
     [
@@ -136,7 +137,7 @@ Por fim, a aplicação estará disponível em `http://localhost:3000/travel_plan
     }
     ```
 
-- **Exemplo de uso:** GET /travel-plans/1?optimize=false&expand=true
+- **Exemplo de uso:** GET /travel-plans/1?optimize=false&expand=true ❌
   - **Resposta de sucesso (Status: 200, Content-Type: application/json):**
     ```json
     {
