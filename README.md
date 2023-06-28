@@ -2,9 +2,9 @@
 
 Sérgio está construindo este projeto para desafiar a si mesmo, desenvolvendo uma **API REST** em uma linguagem de programação completamente nova para ele, e da qual tem pouca informação na internet, obrigando-o a pesquisar apenas utilizando as documentações das tecnologias utilizadas. 
 
-Este repositório documenta os requisitos desta API para planejamento de viagens no universo de **[Rick and Morty](https://rickandmortyapi.com/)**. A API contém apenas um recurso (/travel-plans), que representa um plano de viagem.
+Este readme documenta os requisitos desta API para planejamento de viagens no universo de **[Rick and Morty](https://rickandmortyapi.com/)**. A API contém apenas um recurso `/travel-plans`, que representa um plano de viagem.
 
-O objetivo de Sérgio é implementar a API de acordo com as especificações fornecidas e torná-la funcional para que os usuários possam planejar suas viagens no mundo de **[Rick and Morty](https://rickandmortyapi.com/)**.
+O objetivo de Sérgio é implementar a API de acordo com os requisitos e torná-la funcional para que os usuários possam planejar suas viagens no mundo de **[Rick and Morty](https://rickandmortyapi.com/)**.
 
 ```json
 {
