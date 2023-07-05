@@ -1,6 +1,6 @@
 # Travels Booker em construção... 🚧
 
-Sérgio decidiu embarcar em um desafio pessoal de desenvolver uma **API REST** utilizando a linguagem de programação **Crystal**. Seu objetivo é adquirir novos conhecimentos e aprimorar suas habilidades.
+Sérgio decidiu embarcar em um projeto pessoal de desenvolver uma **API REST** utilizando a linguagem de programação **Crystal**. Seu objetivo é adquirir novos conhecimentos e aprimorar suas habilidades.
 
 Este readme documenta os requisitos desta API para planejamento de viagens no universo de **[Rick and Morty](https://rickandmortyapi.com/)**. A API contém apenas um recurso `/travel-plans`, que representa um plano de viagem.
 
