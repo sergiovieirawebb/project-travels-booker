@@ -1,8 +1,8 @@
 # Travels Booker em construção... 🚧
 
-Este readme documenta os requisitos da API para planejamento de viagens no universo de **[Rick and Morty](https://rickandmortyapi.com/)**. A API contém apenas um recurso `/travel-plans`, que representa um plano de viagem.
+Este readme documenta os requisitos da REST API para planejamento de viagens no universo de **[Rick and Morty](https://rickandmortyapi.com/)**. E contém apenas um recurso `/travel-plans`, que representa um plano de viagem.
 
-O objetivo é implementar a API de acordo com os requisitos e torná-la funcional para que os usuários possam planejar suas viagens no mundo de **[Rick and Morty](https://rickandmortyapi.com/)**.
+O objetivo é implementar a REST API de acordo com os requisitos e torná-la funcional para que os usuários possam planejar suas viagens no mundo de **[Rick and Morty](https://rickandmortyapi.com/)**.
 
 ```json
 {
